@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lawngreen;
+}
+#rectangle{
+    height: 200px;
+    width: 400px;
+    border: 2px solid brown;
+}
