@@ -9,7 +9,7 @@ let to_curr = document.querySelector(".To select");
 const msg = document.querySelector(".msg");
 
 window.addEventListener("load", () => {
-  updateExchngRate();
+  updateExchangeRate();
 });
 for (let select of dropdowns) {
   for (let currcode in countryList) {
@@ -39,10 +39,10 @@ const Flag = (element) => {
 
 btn.addEventListener("click", (event) => {
   event.preventDefault();
-  updateExchngRate();
+  updateExchangeRate();
 });
 
-const updateExchngRate = async () => {
+const updateExchangeRate = async () => {
   let amount = document.querySelector(".amount input");
   let amtval = amount.value;
   if (amtval === "" || amtval <= 0) {
